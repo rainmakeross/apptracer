@@ -7,7 +7,7 @@
 // CWebApplication properties can be configured here.
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'My Web Application',
+	'name'=>'AppTracer',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -31,7 +31,7 @@ return array(
 	),
 
 	// application components
-	'components'=>array(
+    'components'=>array(
 		'user'=>array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
@@ -75,6 +75,24 @@ return array(
             //'image'=>'URL_TO_WEBSITE_LOGO',
             //),
         ),
+        'clientScript' => array(
+            'scriptMap' => array(
+                'jquery.js'=>false,  //disable default implementation of jquery
+                'jquery.min.js'=>false,  //desable any others default implementation
+                'core.css'=>false, //disable
+                'styles.css'=>false,  //disable
+                'pager.css'=>false,   //disable
+                'default.css'=>false,  //disable
+            ),
+            'packages'=>array(
+                'accordion'=>array(                             // set the new jquery
+                    'baseUrl'=>'myassets/',
+                    'js'=>array('js/jquery-1.10.2.min.js','js/jquery-ui-1.10.3/ui/jquery-ui.js'),
+                    'css'=>array('css/normalize.css', 'css/custom.css'),
+                ),
+
+            ),
+        ),
         /*
 		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
@@ -114,6 +132,7 @@ return array(
 	// using Yii::app()->params['paramName']
 	'params'=>array(
 		// this is used in contact page
-		'adminEmail'=>'webmaster@example.com',
+		'adminEmail'=>'admin@apptracer.com',
 	),
+    'theme'=>'blackboot',
 );

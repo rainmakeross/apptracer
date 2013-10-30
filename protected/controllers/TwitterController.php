@@ -7,6 +7,11 @@ class TwitterController extends Controller
     public $follower_list = '';
     public $user_name = '';
 
+    public $mentions_timelines = '';
+    public $user_timelines = '';
+    public $home_timelines = '';
+    public $retweets = '';
+
     public function actions()
     {
         return array();
@@ -20,6 +25,7 @@ class TwitterController extends Controller
 
 
     public function actionTwitterLogin(){
+
         //JUST TO BUILD A SESSION
         $isguest = Yii::app()->user->getIsGuest();
         //JUST TO BUILD A SESSION
@@ -49,6 +55,8 @@ class TwitterController extends Controller
 
 
     public function actionTwitterCallBack() {
+
+
         /* If the oauth_token is old redirect to the connect page. */
         if (isset($_REQUEST['oauth_token']) && Yii::app()->session['oauth_token'] !== $_REQUEST['oauth_token']) {
             Yii::app()->session['oauth_status'] = 'oldtoken';
@@ -74,6 +82,14 @@ class TwitterController extends Controller
             //get an access twitter object
             $twitter = Yii::app()->twitter->getTwitterTokened($access_token['oauth_token'],$access_token['oauth_token_secret']);
 
+            /*
+             * get mentions timelines
+             */
+            $mentions_timelines = $twitter->get("statuses/mentions_timeline");
+            $user_timelines = $twitter->get("statuses/user_timeline");
+            $home_timelines = $twitter->get("statuses/home_timeline");
+            $retweets = $twitter->get("statuses/retweets_of_me");
+
             //get user details
             $twuser= $twitter->get("account/verify_credentials");
             //get friends ids
@@ -95,6 +111,12 @@ class TwitterController extends Controller
             $this-> follower_list  = $followers;
             $this-> friend_list = $friend_lookup;
             $this-> user_name = $twuser;
+            $this-> mentions_timelines = $mentions_timelines;
+            $this->user_timelines = $user_timelines;
+            $this->home_timelines = $home_timelines;
+            $this->retweets = $retweets;
+
+
             $this->render('twittercallback');
 
         } else {

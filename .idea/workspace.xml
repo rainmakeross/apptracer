@@ -4,12 +4,13 @@
     <list default="true" id="f0336380-880c-4a7b-bef5-7b9bd0d35569" name="Default" comment="" />
     <ignored path="TwitterApp.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/TwitterController.php" changelist="f0336380-880c-4a7b-bef5-7b9bd0d35569" time="1382559265083" ignored="false" />
-    <file path="/twittercallback.php" changelist="f0336380-880c-4a7b-bef5-7b9bd0d35569" time="1382558704125" ignored="false" />
-    <file path="/.htaccess" changelist="f0336380-880c-4a7b-bef5-7b9bd0d35569" time="1382736395023" ignored="false" />
-    <file path="/index.php" changelist="f0336380-880c-4a7b-bef5-7b9bd0d35569" time="1382736517234" ignored="false" />
+    <file path="/TwitterController.php" changelist="f0336380-880c-4a7b-bef5-7b9bd0d35569" time="1383081313784" ignored="false" />
+    <file path="/twittercallback.php" changelist="f0336380-880c-4a7b-bef5-7b9bd0d35569" time="1383081559589" ignored="false" />
+    <file path="/.htaccess" changelist="f0336380-880c-4a7b-bef5-7b9bd0d35569" time="1382890502702" ignored="false" />
+    <file path="/index.php" changelist="f0336380-880c-4a7b-bef5-7b9bd0d35569" time="1383138959979" ignored="false" />
     <file path="/FacebookController.php" changelist="f0336380-880c-4a7b-bef5-7b9bd0d35569" time="1382739700455" ignored="false" />
-    <file path="/main.php" changelist="f0336380-880c-4a7b-bef5-7b9bd0d35569" time="1382739966471" ignored="false" />
+    <file path="/main.php" changelist="f0336380-880c-4a7b-bef5-7b9bd0d35569" time="1383139066066" ignored="false" />
+    <file path="/about.php" changelist="f0336380-880c-4a7b-bef5-7b9bd0d35569" time="1383139281262" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +33,16 @@
       <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/config/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="41" selection-start="1793" selection-end="1793" vertical-scroll-proportion="-21.25">
+            <state line="94" column="10" selection-start="3827" selection-end="3827" vertical-scroll-proportion="-28.77551">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contact.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/site/contact.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="51" selection-start="268" selection-end="268" vertical-scroll-proportion="-8.125">
               <folding />
             </state>
           </provider>
@@ -41,16 +51,34 @@
       <file leaf-file-name="FacebookController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/controllers/FacebookController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="23" selection-start="272" selection-end="272" vertical-scroll-proportion="-9.375">
+            <state line="15" column="0" selection-start="506" selection-end="506" vertical-scroll-proportion="-9.375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
+        <entry file="file://$PROJECT_DIR$/themes/blackboot/views/layouts/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="63" selection-start="2095" selection-end="2095" vertical-scroll-proportion="-31.25">
+            <state line="145" column="94" selection-start="5824" selection-end="5824" vertical-scroll-proportion="-13.020409">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/site/pages/about.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="30" selection-start="175" selection-end="175" vertical-scroll-proportion="-6.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="33" selection-start="680" selection-end="680" vertical-scroll-proportion="-15.0">
               <folding />
             </state>
           </provider>
@@ -59,68 +87,7 @@
       <file leaf-file-name="TwitterController.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/controllers/TwitterController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="38" selection-start="632" selection-end="632" vertical-scroll-proportion="0.34009546">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="column1.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/layouts/column1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding>
-                <marker date="1382723030897" expanded="true" signature="102:134" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="column2.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/layouts/column2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding>
-                <marker date="1382723030897" expanded="true" signature="105:182" placeholder="..." />
-                <marker date="1382723030897" expanded="true" signature="125:159" placeholder="..." />
-                <marker date="1382723030897" expanded="true" signature="208:499" placeholder="..." />
-                <marker date="1382723030897" expanded="true" signature="228:476" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/components/Controller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="5" selection-start="1234" selection-end="1234" vertical-scroll-proportion="-18.125">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/facebook/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="383" selection-end="383" vertical-scroll-proportion="-10.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.htaccess">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="twitteroauth.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/extensions/yiitwitteroauth/twitteroauth.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="240" column="1" selection-start="8233" selection-end="8233" vertical-scroll-proportion="0.0">
+            <state line="31" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="0.54195803">
               <folding />
             </state>
           </provider>
@@ -138,13 +105,17 @@
       <list>
         <option value="$PROJECT_DIR$/protected/extensions/yiitwitteroauth/twitteroauth.php" />
         <option value="$PROJECT_DIR$/protected/extensions/yiitwitteroauth/OAuth.php" />
-        <option value="$PROJECT_DIR$/protected/views/twitter/twittercallback.php" />
         <option value="$PROJECT_DIR$/protected/views/facebook/index.php" />
-        <option value="$PROJECT_DIR$/protected/components/Controller.php" />
-        <option value="$PROJECT_DIR$/protected/config/main.php" />
-        <option value="$PROJECT_DIR$/protected/controllers/FacebookController.php" />
         <option value="$PROJECT_DIR$/protected/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/protected/components/Controller.php" />
+        <option value="$PROJECT_DIR$/protected/controllers/FacebookController.php" />
+        <option value="$PROJECT_DIR$/myassets/css/custom.css" />
+        <option value="$PROJECT_DIR$/protected/views/twitter/twittercallback.php" />
+        <option value="$PROJECT_DIR$/protected/config/main.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/index.php" />
+        <option value="$PROJECT_DIR$/themes/blackboot/views/layouts/main.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/pages/about.php" />
         <option value="$PROJECT_DIR$/protected/controllers/TwitterController.php" />
       </list>
     </option>
@@ -181,6 +152,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -249,29 +221,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TwitterApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppTracer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="facebook" />
+              <option name="myItemId" value="site" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -293,45 +243,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TwitterApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppTracer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TwitterApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppTracer" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="protected" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -366,7 +279,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2524013" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23639274" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -442,121 +355,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/config/test.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/extensions/yiitwitteroauth/OAuth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/UserController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/twitter/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="2" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/twitter/twittercallback.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="50" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/extensions/yiitwitteroauth/twitteroauth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="240" column="1" selection-start="8233" selection-end="8233" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/components/Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="5" selection-start="1234" selection-end="1234" vertical-scroll-proportion="-18.125">
+        <state line="23" column="0" selection-start="811" selection-end="811" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
+    <entry file="file://$PROJECT_DIR$/myassets/js/jquery-ui-1.10.3/demos/accordion/collapsible.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="41" selection-start="1793" selection-end="1793" vertical-scroll-proportion="-21.25">
+        <state line="5" column="61" selection-start="177" selection-end="177" vertical-scroll-proportion="0.09113001">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
+    <entry file="file://$PROJECT_DIR$/myassets/js/jquery-ui-1.10.3/demos/accordion/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="63" selection-start="2095" selection-end="2095" vertical-scroll-proportion="-31.25">
+        <state line="8" column="4" selection-start="126" selection-end="126" vertical-scroll-proportion="0.14354067" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/facebook/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myassets/js/jquery-ui-1.10.3/demos/demos.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="0" selection-end="287" vertical-scroll-proportion="0.33139536">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/views/layouts/column1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1382723030897" expanded="true" signature="102:134" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/layouts/column2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1382723030897" expanded="true" signature="105:182" placeholder="..." />
-            <marker date="1382723030897" expanded="true" signature="125:159" placeholder="..." />
-            <marker date="1382723030897" expanded="true" signature="208:499" placeholder="..." />
-            <marker date="1382723030897" expanded="true" signature="228:476" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="5" column="29" selection-start="181" selection-end="181" vertical-scroll-proportion="-3.125">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/facebook/index.php">
+    <entry file="file://$PROJECT_DIR$/protected/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="383" selection-end="383" vertical-scroll-proportion="-10.625">
+        <state line="8" column="4" selection-start="380" selection-end="380" vertical-scroll-proportion="-5.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
+    <entry file="file://$PROJECT_DIR$/myassets/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
+        <state line="22" column="26" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/twitter/twittercallback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="38.916668">
+          <folding>
+            <marker date="1383081619151" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="33" selection-start="680" selection-end="680" vertical-scroll-proportion="-15.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/blackboot/views/layouts/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="145" column="94" selection-start="5824" selection-end="5824" vertical-scroll-proportion="-13.020409">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/pages/about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="30" selection-start="175" selection-end="175" vertical-scroll-proportion="-6.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="51" selection-start="268" selection-end="268" vertical-scroll-proportion="-8.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="10" selection-start="3827" selection-end="3827" vertical-scroll-proportion="-28.77551">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/FacebookController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="23" selection-start="272" selection-end="272" vertical-scroll-proportion="-9.375">
+        <state line="15" column="0" selection-start="506" selection-end="506" vertical-scroll-proportion="-9.375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/TwitterController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="38" selection-start="632" selection-end="632" vertical-scroll-proportion="0.34009546">
+        <state line="31" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="0.54195803">
           <folding />
         </state>
       </provider>
