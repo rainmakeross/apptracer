@@ -11,6 +11,14 @@ class TwitterController extends Controller
     public $user_timelines = '';
     public $home_timelines = '';
     public $retweets = '';
+    public $direct_messages = '';
+    public $direct_messages_sent = '';
+    public $twuser_settings='';
+    public $favorites_list = '';
+    public $lists_list = '';
+    public $saved_searches_list = '';
+
+    public $application_rate_limit_status = '';
 
     public function actions()
     {
@@ -32,7 +40,7 @@ class TwitterController extends Controller
 
         //grab twitter object and request token
         $twitter = Yii::app()->twitter->getTwitter();
-        $callbackurl='http://apptracer.com/index.php/twitter/TwitterCallBack'; // this is your callback url!!!!
+        $callbackurl='http://apptracer.com/twitter/TwitterCallBack'; // this is your callback url!!!!
         $request_token = $twitter->getRequestToken($callbackurl);
         #$request_token = $twitter->getRequestToken();
 
@@ -42,7 +50,9 @@ class TwitterController extends Controller
 
         if($twitter->http_code == 200){
             //get twitter connect url
-            $url = $twitter->getAuthorizeURL($token);
+            // false added to force Authorize rather than Authenticate.. Twitter RWD model works through authorize only.
+            $url = $twitter->getAuthorizeURL($token, false);
+
             //send them
             $this->redirect($url);
         }else{
@@ -89,6 +99,13 @@ class TwitterController extends Controller
             $user_timelines = $twitter->get("statuses/user_timeline");
             $home_timelines = $twitter->get("statuses/home_timeline");
             $retweets = $twitter->get("statuses/retweets_of_me");
+            $direct_messages = $twitter->get("direct_messages");
+            $direct_messages_sent = $twitter->get("direct_messages/sent");
+            $twuser_settings = $twitter->get("account/settings");
+            $favorites_list = $twitter->get("favorites/list");
+            $lists_list = $twitter->get("lists/list",["reverse"=>"true"]);
+            $saved_searches_list = $twitter->get("saved_searches/list");
+            $application_rate_limit_status = $twitter->get("application/rate_limit_status");
 
             //get user details
             $twuser= $twitter->get("account/verify_credentials");
@@ -115,6 +132,13 @@ class TwitterController extends Controller
             $this->user_timelines = $user_timelines;
             $this->home_timelines = $home_timelines;
             $this->retweets = $retweets;
+            $this->direct_messages = $direct_messages;
+            $this->direct_messages_sent = $direct_messages_sent;
+            $this->twuser_settings = $twuser_settings;
+            $this->favorites_list = $favorites_list;
+            $this->lists_list = $lists_list;
+            $this->saved_searches_list = $saved_searches_list;
+            $this->application_rate_limit_status = $application_rate_limit_status;
 
 
             $this->render('twittercallback');

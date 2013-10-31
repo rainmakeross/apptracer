@@ -4,8 +4,8 @@
     <list default="true" id="f0336380-880c-4a7b-bef5-7b9bd0d35569" name="Default" comment="" />
     <ignored path="TwitterApp.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/TwitterController.php" changelist="f0336380-880c-4a7b-bef5-7b9bd0d35569" time="1383081313784" ignored="false" />
-    <file path="/twittercallback.php" changelist="f0336380-880c-4a7b-bef5-7b9bd0d35569" time="1383081559589" ignored="false" />
+    <file path="/TwitterController.php" changelist="f0336380-880c-4a7b-bef5-7b9bd0d35569" time="1383242576072" ignored="false" />
+    <file path="/twittercallback.php" changelist="f0336380-880c-4a7b-bef5-7b9bd0d35569" time="1383242641630" ignored="false" />
     <file path="/.htaccess" changelist="f0336380-880c-4a7b-bef5-7b9bd0d35569" time="1382890502702" ignored="false" />
     <file path="/index.php" changelist="f0336380-880c-4a7b-bef5-7b9bd0d35569" time="1383138959979" ignored="false" />
     <file path="/FacebookController.php" changelist="f0336380-880c-4a7b-bef5-7b9bd0d35569" time="1382739700455" ignored="false" />
@@ -30,19 +30,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/config/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="10" selection-start="3827" selection-end="3827" vertical-scroll-proportion="-28.77551">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/site/contact.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="51" selection-start="268" selection-end="268" vertical-scroll-proportion="-8.125">
+            <state line="41" column="75" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.7382953">
               <folding />
             </state>
           </provider>
@@ -66,28 +57,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/site/pages/about.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="30" selection-start="175" selection-end="175" vertical-scroll-proportion="-6.25">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="33" selection-start="680" selection-end="680" vertical-scroll-proportion="-15.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TwitterController.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TwitterController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/controllers/TwitterController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="0.54195803">
+            <state line="42" column="31" selection-start="1011" selection-end="1011" vertical-scroll-proportion="-26.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="twitteroauth.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/extensions/yiitwitteroauth/twitteroauth.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="140" column="16" selection-start="4707" selection-end="4710" vertical-scroll-proportion="-14.530612">
+              <folding>
+                <element signature="e#7#133#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="twittercallback.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/twitter/twittercallback.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="260" column="0" selection-start="10238" selection-end="10238" vertical-scroll-proportion="-162.5">
               <folding />
             </state>
           </provider>
@@ -111,11 +104,11 @@
         <option value="$PROJECT_DIR$/protected/components/Controller.php" />
         <option value="$PROJECT_DIR$/protected/controllers/FacebookController.php" />
         <option value="$PROJECT_DIR$/myassets/css/custom.css" />
-        <option value="$PROJECT_DIR$/protected/views/twitter/twittercallback.php" />
-        <option value="$PROJECT_DIR$/protected/config/main.php" />
         <option value="$PROJECT_DIR$/protected/views/site/index.php" />
         <option value="$PROJECT_DIR$/themes/blackboot/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/protected/views/site/pages/about.php" />
+        <option value="$PROJECT_DIR$/protected/config/main.php" />
+        <option value="$PROJECT_DIR$/protected/views/twitter/twittercallback.php" />
         <option value="$PROJECT_DIR$/protected/controllers/TwitterController.php" />
       </list>
     </option>
@@ -221,7 +214,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
+              <option name="myItemId" value="twitter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -239,7 +232,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="extensions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -355,13 +348,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/components/Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="811" selection-end="811" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/myassets/js/jquery-ui-1.10.3/demos/accordion/collapsible.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="61" selection-start="177" selection-end="177" vertical-scroll-proportion="0.09113001">
@@ -409,18 +395,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/twitter/twittercallback.php">
+    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="161" selection-end="161" vertical-scroll-proportion="38.916668">
-          <folding>
-            <marker date="1383081619151" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
+        <state line="24" column="33" selection-start="680" selection-end="680" vertical-scroll-proportion="0.41958043">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
+    <entry file="file://$PROJECT_DIR$/protected/views/site/pages/about.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="33" selection-start="680" selection-end="680" vertical-scroll-proportion="-15.0">
+        <state line="10" column="30" selection-start="175" selection-end="175" vertical-scroll-proportion="0.17751479">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/contact.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="51" selection-start="268" selection-end="268" vertical-scroll-proportion="0.22727273">
           <folding />
         </state>
       </provider>
@@ -432,24 +423,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/pages/about.php">
+    <entry file="file://$PROJECT_DIR$/protected/extensions/yiitwitteroauth/twitteroauth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="30" selection-start="175" selection-end="175" vertical-scroll-proportion="-6.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/views/site/contact.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="51" selection-start="268" selection-end="268" vertical-scroll-proportion="-8.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="10" selection-start="3827" selection-end="3827" vertical-scroll-proportion="-28.77551">
-          <folding />
+        <state line="140" column="16" selection-start="4707" selection-end="4710" vertical-scroll-proportion="-14.530612">
+          <folding>
+            <element signature="e#7#133#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -460,9 +439,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/twitter/twittercallback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="260" column="0" selection-start="10238" selection-end="10238" vertical-scroll-proportion="-162.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/TwitterController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="623" selection-end="623" vertical-scroll-proportion="0.54195803">
+        <state line="42" column="31" selection-start="1011" selection-end="1011" vertical-scroll-proportion="-26.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="75" selection-start="1143" selection-end="1143" vertical-scroll-proportion="0.7382953">
           <folding />
         </state>
       </provider>

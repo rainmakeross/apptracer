@@ -38,9 +38,9 @@ return array(
 		),
         'twitter' => array(
             'class' => 'ext.yiitwitteroauth.YiiTwitter',
-            'consumer_key' => 'OPdQoQLMvaUJBbInv4LQUw',
-            'consumer_secret' => 'AZxvMKfKOD4sWA4l5ThcNS8ONnWu5Tva5WimJW5R2x8',
-            'callback' => 'http://yinanc.com/twitterApp/twitter/TwitterCallBack',
+            'consumer_key' => 'qk2cCmZb9zPmQ6zcPqlgw',
+            'consumer_secret' => '7sqA5y8RvdgPZrAlC2bOY4qBPgMbSnmf47LwfpY8M',
+            'callback' => 'http://localhost/',
         ),
 		// uncomment the following to enable URLs in path-format
 
