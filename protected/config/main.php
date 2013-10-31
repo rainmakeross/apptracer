@@ -40,7 +40,7 @@ return array(
             'class' => 'ext.yiitwitteroauth.YiiTwitter',
             'consumer_key' => 'qk2cCmZb9zPmQ6zcPqlgw',
             'consumer_secret' => '7sqA5y8RvdgPZrAlC2bOY4qBPgMbSnmf47LwfpY8M',
-            'callback' => 'http://localhost/',
+            'callback' => 'http://apptracer.com/twitter/twittercallback',
         ),
 		// uncomment the following to enable URLs in path-format
 

@@ -103,7 +103,7 @@ class TwitterController extends Controller
             $direct_messages_sent = $twitter->get("direct_messages/sent");
             $twuser_settings = $twitter->get("account/settings");
             $favorites_list = $twitter->get("favorites/list");
-            $lists_list = $twitter->get("lists/list",["reverse"=>"true"]);
+            $lists_list = $twitter->get("lists/list");
             $saved_searches_list = $twitter->get("saved_searches/list");
             $application_rate_limit_status = $twitter->get("application/rate_limit_status");
 
