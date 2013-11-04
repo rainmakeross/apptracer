@@ -5,6 +5,7 @@ $this->pageTitle=Yii::app()->name;
 ?>
 
 <h1>Welcome to <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
+<img src = "<?php echo Yii::app()->baseUrl; ?>/images/at-apps.jpg" alt="AppTracer Apps">
 
 <p>Site is at an Alpha stage right now</p>
 

@@ -85,10 +85,9 @@ return array(
                 'default.css'=>false,  //disable
             ),
             'packages'=>array(
-                'accordion'=>array(                             // set the new jquery
-                    'baseUrl'=>'myassets/',
-                    'js'=>array('js/jquery-1.10.2.min.js','js/jquery-ui-1.10.3/ui/jquery-ui.js'),
-                    'css'=>array('css/normalize.css', 'css/custom.css'),
+                'custom_styles'=>array(                             // set the new jquery
+                    'baseUrl'=> 'myassets/',
+                    'css'=>array('css/custom.css'),
                 ),
 
             ),

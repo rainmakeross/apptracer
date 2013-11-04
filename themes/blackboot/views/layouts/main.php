@@ -45,7 +45,9 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</a>
-				<a class="brand" href="#"><?php echo Yii::app()->name ?></a>
+				<a class="brand" href="#"></a>
+                <img class = "logo_image" src = "<?php echo Yii::app()->baseUrl; ?>/images/Apptracer_logo.png" alt="AppTracer Logo">
+
 				<div class="nav-collapse">
 					<?php $this->widget('zii.widgets.CMenu',array(
 						'htmlOptions' => array( 'class' => 'nav' ),

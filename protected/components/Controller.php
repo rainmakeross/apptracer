@@ -21,5 +21,12 @@ class Controller extends CController
 	 */
 	public $breadcrumbs=array();
 
+    public function beforeRender( $view ) {
+
+        Yii::app()->clientScript->registerPackage('custom_styles');
+
+        return true;
+    }
+
 
 }
